@@ -61,4 +61,42 @@ footer{
         border-radius: 20px;
         color: white;
     }
+    @media only screen and (min-width: 0px) and (max-width: 768px){
+          footer{
+            display: grid;
+            grid-template-areas: 
+            "mateo"
+            "rrss";
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto;
+          }
+          .rrss{
+            grid-area: rrss;
+            display: flex;
+            justify-content:center ;
+            width: 75%;
+            margin-top: 2%;
+          }
+          i{
+            font-size: 30px;
+            margin-left: 10px;
+          }
+          .mateo{
+            grid-area: mateo;
+            display: flex;
+            justify-content: center;
+            margin-left: 5.5rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+          }
+          .contacto{
+            grid-area: contacto;
+            display: none;
+          }
+          .contacto h3{
+            display: none;
+          }
+      
+      }
+    
 }
