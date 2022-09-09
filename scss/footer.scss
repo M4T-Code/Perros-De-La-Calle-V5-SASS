@@ -33,7 +33,7 @@ footer{
         display: flex;
         justify-content: flex-end;
         margin-top: 2rem;
-        width: 13rem;
+        width: 17rem;
         button{
             background-color: white;
             border: 3px solid white;
@@ -43,7 +43,6 @@ footer{
             &:hover{
                 background-color: #DEB841;
                 color: black;
-                padding: 1rem;
                 padding-left: 2.7rem;
                 padding-right: 3rem;
                 border-radius: 8px; 
