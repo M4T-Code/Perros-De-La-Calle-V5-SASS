@@ -5,6 +5,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     height: 10rem;
+    background: rgb(46, 46, 46);
     .rrss{
         display: flex;
         justify-content: space-between;
@@ -25,6 +26,7 @@ footer{
         transition: .3s;
         &:hover{
             padding-top: 1rem;
+            color: #DEB841;
         }
     }
     .mateo{
@@ -33,13 +35,13 @@ footer{
         margin-top: 2rem;
         width: 13rem;
         button{
-            background-color: black;
+            background-color: white;
             border: 3px solid white;
             width: 8rem;
             height: 3rem;
             border-radius: 10px;
             &:hover{
-                background-color: white;
+                background-color: #DEB841;
                 color: black;
                 padding: 1rem;
                 padding-left: 2.7rem;
@@ -48,7 +50,7 @@ footer{
             }
             a{
                 text-decoration: none;
-                color: rgb(255, 255, 255); 
+                color: black; 
             }
         }
     }

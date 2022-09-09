@@ -12,7 +12,7 @@ header {
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto;
   height: 12rem;
-  background-color: black;
+  background-color: #2e2e2e;
   width: 100%; }
   header .perroImg {
     grid-area: perroImg;
@@ -38,7 +38,7 @@ header {
         header nav ul li a:hover {
           color: black;
           font-size: 1.3rem;
-          background-color: orange;
+          background-color: #DEB841;
           padding: .6rem;
           border-radius: 10px; }
   @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -72,9 +72,13 @@ header {
               padding: .6rem;
               border-radius: 10px; } }
 
+body {
+  background: #2e2e2e;
+  font-family: 'Lato', sans-serif; }
+
 main {
   grid-area: main;
-  background: linear-gradient(140deg, #020024 -3rem, #ffa900 2rem, #472f00 100%, black 100%, #00d4ff 100%); }
+  background: #DEB841; }
   main h1 {
     text-align: center;
     margin: 2rem; }
@@ -82,8 +86,8 @@ main {
     text-align: center; }
   main p {
     text-align: center;
-    margin: 1rem;
-    padding: 1rem; }
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 2rem; }
   main .grid-index {
     display: grid;
     grid-template-areas: "header" "main" "video-index" "footer";
@@ -100,6 +104,9 @@ main {
     background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
+  @media only screen and (min-width: 1023px) {
+    main .index-txt {
+      margin: 2rem 8rem 2rem 8rem; } }
 
 footer {
   grid-area: footer;
@@ -107,7 +114,8 @@ footer {
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 10rem; }
+  height: 10rem;
+  background: #2e2e2e; }
   footer .rrss {
     display: flex;
     justify-content: space-between;
@@ -125,20 +133,21 @@ footer {
     color: white;
     transition: .3s; }
     footer i:hover {
-      padding-top: 1rem; }
+      padding-top: 1rem;
+      color: #DEB841; }
   footer .mateo {
     display: flex;
     justify-content: flex-end;
     margin-top: 2rem;
     width: 13rem; }
     footer .mateo button {
-      background-color: black;
+      background-color: white;
       border: 3px solid white;
       width: 8rem;
       height: 3rem;
       border-radius: 10px; }
       footer .mateo button:hover {
-        background-color: white;
+        background-color: #DEB841;
         color: black;
         padding: 1rem;
         padding-left: 2.7rem;
@@ -146,7 +155,7 @@ footer {
         border-radius: 8px; }
       footer .mateo button a {
         text-decoration: none;
-        color: white; }
+        color: black; }
   footer .contacto {
     display: flex;
     flex-direction: row;

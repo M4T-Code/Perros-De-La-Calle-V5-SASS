@@ -1,9 +1,11 @@
+body{
+    background:  rgb(46, 46, 46);
+    font-family: 'Lato', sans-serif;
+}
 main{
     grid-area: main;
-    background: linear-gradient(140deg,
-     rgba(2,0,36,1) -3rem, rgba(255,169,0,1) 2rem, 
-     rgba(71,47,0,1) 100%, rgba(0,0,0,1) 100%,
-      rgba(0,212,255,1) 100%);
+    background: #DEB841;
+      
     h1{
         text-align: center;
         margin: 2rem;
@@ -13,8 +15,8 @@ main{
     }
     p{
         text-align: center;
-        margin: 1rem;
-        padding: 1rem;
+        margin: 1rem 3rem 1rem 3rem;
+        padding: 2rem;
     }
     .grid-index{
         display: grid;
@@ -40,5 +42,10 @@ main{
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     
+    }
+    @media only screen and (min-width: 1023px){
+        .index-txt{
+            margin: 2rem 8rem 2rem 8rem;
+        }
     }
 }
