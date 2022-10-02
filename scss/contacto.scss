@@ -50,3 +50,14 @@ main{
         
     }
 }
+.container-ubicacion{
+    display: flex;
+    justify-content: center;
+    iframe{
+        background-color: rgba(245, 222, 179, 0.712);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+}

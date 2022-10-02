@@ -304,3 +304,13 @@ main {
         .container-contacto .contacto-forms .contacto-enviar #enviar:hover {
           background-color: orange;
           color: black; }
+
+.container-ubicacion {
+  display: flex;
+  justify-content: center; }
+  .container-ubicacion iframe {
+    background-color: rgba(245, 222, 179, 0.712);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
