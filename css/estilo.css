@@ -80,10 +80,14 @@ main {
   grid-area: main;
   background: #DEB841; }
   main h1 {
+    color: white;
     text-align: center;
-    margin: 2rem; }
+    margin: 2rem;
+    text-shadow: 2px 2px 5px orange; }
   main h2 {
-    text-align: center; }
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px orange; }
   main .index-text {
     text-align: center;
     margin: 1rem 3rem 1rem 3rem;
@@ -204,7 +208,8 @@ footer {
     margin: 2rem;
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transition: all 850ms; }
     .container-card .card:hover {
       box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 0px 0px; }
     .container-card .card img {
@@ -218,7 +223,8 @@ footer {
       color: black;
       font-size: 2rem;
       justify-content: flex-end;
-      margin: 1rem; }
+      margin: 1rem;
+      transition: all 250ms; }
       .container-card .card .nosotros-instagram:hover {
         color: #DEB841; }
 
@@ -247,7 +253,7 @@ footer {
       background-color: #2e2e2e;
       padding: .7rem;
       border-radius: 10px;
-      border: 1px solid white;
+      border: .1px solid white;
       box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
       .container-cards .card-perros button:hover {
         background-color: orange;
@@ -256,4 +262,45 @@ footer {
         color: white;
         text-decoration: none; }
         .container-cards .card-perros button a:hover {
+          color: black; }
+
+main {
+  background-image: url("../assets/img/perros/fondo.jpg"); }
+
+.container-contacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem; }
+  .container-contacto .contacto-forms {
+    background-color: rgba(245, 222, 179, 0.712);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
+    .container-contacto .contacto-forms .number {
+      width: 5rem; }
+    .container-contacto .contacto-forms #nombreCompleto {
+      width: 15.5rem;
+      margin-bottom: .5rem;
+      margin-right: .4rem; }
+    .container-contacto .contacto-forms #edad {
+      width: 5rem; }
+    .container-contacto .contacto-forms #correoElectronico {
+      width: 21.4rem;
+      margin-bottom: .5rem; }
+    .container-contacto .contacto-forms #comentario {
+      margin: 0rem; }
+    .container-contacto .contacto-forms .contacto-enviar {
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 1rem; }
+      .container-contacto .contacto-forms .contacto-enviar #enviar {
+        background-color: #2e2e2e;
+        padding: .7rem;
+        border-radius: 10px;
+        border: .1px solid white;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        color: white; }
+        .container-contacto .contacto-forms .contacto-enviar #enviar:hover {
+          background-color: orange;
           color: black; }

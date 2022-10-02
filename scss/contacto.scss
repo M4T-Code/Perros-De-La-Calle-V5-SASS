@@ -1,0 +1,52 @@
+main{
+    background-image: url("../assets/img/perros/fondo.jpg");
+}
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem ;
+    .contacto-forms{
+        background-color: rgba(245, 222, 179, 0.712);
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        .number{
+            width: 5rem;
+        }
+        #nombreCompleto{
+            width: 15.5rem;
+            margin-bottom: .5rem;
+            margin-right: .4rem ;
+        }
+        #edad{
+            width: 5rem;
+            
+        }
+        #correoElectronico{
+            width: 21.4rem;
+            margin-bottom: .5rem;
+        }
+        #comentario{
+            margin: 0rem;
+        }
+        .contacto-enviar {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 1rem;
+            #enviar{
+                background-color: rgb(46, 46, 46);
+                padding: .7rem;
+                border-radius: 10px;
+                border: .1px solid white;
+                box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+                color: white;
+                &:hover{
+                    background-color: orange;
+                    color: black;
+                }
+            }
+        }
+        
+    }
+}
