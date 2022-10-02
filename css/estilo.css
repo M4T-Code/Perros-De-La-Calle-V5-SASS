@@ -33,7 +33,7 @@ header {
       header nav ul li a {
         text-decoration: none;
         color: white;
-        font-size: 1.3rem;
+        font-size: 1.21rem;
         transition: .6s; }
         header nav ul li a:hover {
           color: black;
@@ -137,9 +137,10 @@ footer {
       color: #DEB841; }
   footer .mateo {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 2rem;
-    width: 17rem; }
+    width: 17rem;
+    margin-left: 3rem; }
     footer .mateo button {
       background-color: white;
       border: 3px solid white;
@@ -173,8 +174,8 @@ footer {
       grid-area: rrss;
       display: flex;
       justify-content: center;
-      width: 75%;
-      margin-top: 2%; }
+      width: 77%;
+      margin-top: 2rem; }
     footer i {
       font-size: 30px;
       margin-left: 10px; }
@@ -182,22 +183,74 @@ footer {
       grid-area: mateo;
       display: flex;
       justify-content: center;
-      margin-left: 5.5rem;
+      margin-left: 3.8rem;
       margin-top: 1rem;
-      margin-bottom: 2rem; }
+      margin-bottom: 3rem; }
     footer .contacto {
       grid-area: contacto;
       display: none; }
     footer .contacto h3 {
       display: none; } }
 
-main .CardsNosotros {
+.container-card {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 1rem; }
-  main .CardsNosotros .card-title {
+  align-items: center; }
+  .container-card .card {
+    background-color: wheat;
     text-align: center;
-    font-size: 1.5rem; }
-  main .CardsNosotros .card-text {
-    text-align: center; }
+    width: 30rem;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px; }
+    .container-card .card:hover {
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
+    .container-card .card img {
+      width: 100%;
+      border-radius: 10px; }
+    .container-card .card h3 {
+      padding: 1rem 0rem 0rem 0rem; }
+    .container-card .card p {
+      padding: 1rem; }
+    .container-card .card .nosotros-instagram {
+      color: black;
+      font-size: 2rem;
+      justify-content: flex-end;
+      margin: 1rem; }
+      .container-card .card .nosotros-instagram:hover {
+        color: #DEB841; }
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center; }
+  .container-cards .card-perros {
+    background-color: wheat;
+    text-align: center;
+    width: 15rem;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px; }
+    .container-cards .card-perros img {
+      width: 100%;
+      border-radius: 10px; }
+    .container-cards .card-perros h3 {
+      padding: 1rem 0rem 0rem 0rem; }
+    .container-cards .card-perros p {
+      padding: 1rem; }
+    .container-cards .card-perros button {
+      background-color: #2e2e2e;
+      padding: .7rem;
+      border-radius: 10px;
+      border: 1px solid white;
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
+      .container-cards .card-perros button:hover {
+        background-color: orange;
+        color: black; }
+      .container-cards .card-perros button a {
+        color: white;
+        text-decoration: none; }
+        .container-cards .card-perros button a:hover {
+          color: black; }

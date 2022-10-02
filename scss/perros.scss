@@ -1,0 +1,44 @@
+.container-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    .card-perros{
+        background-color: wheat;
+        text-align: center;
+        width: 15rem;
+        margin: 2rem;
+        padding: 1rem;
+        border-radius: 10px;
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        h3{
+            padding: 1rem 0rem 0rem 0rem;
+        }
+        p{ 
+            padding: 1rem;
+        }
+        button{
+            background-color: rgb(46, 46, 46);
+            padding: .7rem;
+            border-radius: 10px;
+            border: 1px solid white;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+            &:hover{
+                background-color: orange;
+                color: black;
+            }
+            a{
+                color: white;
+                text-decoration: none;   
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+    

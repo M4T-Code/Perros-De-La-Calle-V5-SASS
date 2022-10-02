@@ -31,9 +31,10 @@ footer{
     }
     .mateo{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         margin-top: 2rem;
         width: 17rem;
+        margin-left: 3rem;
         button{
             background-color: white;
             border: 3px solid white;
@@ -75,8 +76,8 @@ footer{
             grid-area: rrss;
             display: flex;
             justify-content:center ;
-            width: 75%;
-            margin-top: 2%;
+            width: 77%;
+            margin-top: 2rem;
           }
           i{
             font-size: 30px;
@@ -86,9 +87,9 @@ footer{
             grid-area: mateo;
             display: flex;
             justify-content: center;
-            margin-left: 5.5rem;
+            margin-left: 3.8rem;
             margin-top: 1rem;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
           }
           .contacto{
             grid-area: contacto;
