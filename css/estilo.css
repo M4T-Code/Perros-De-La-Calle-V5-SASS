@@ -83,11 +83,11 @@ main {
     color: white;
     text-align: center;
     margin: 2rem;
-    text-shadow: 2px 2px 5px orange; }
+    text-shadow: 2px 2px 5px black; }
   main h2 {
     color: white;
     text-align: center;
-    text-shadow: 2px 2px 5px orange; }
+    text-shadow: 2px 2px 5px black; }
   main .index-text {
     text-align: center;
     margin: 1rem 3rem 1rem 3rem;
@@ -263,9 +263,6 @@ footer {
         text-decoration: none; }
         .container-cards .card-perros button a:hover {
           color: black; }
-
-main {
-  background-image: url("../assets/img/perros/fondo.jpg"); }
 
 .container-contacto {
   display: flex;
