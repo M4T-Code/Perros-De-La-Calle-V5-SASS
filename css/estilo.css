@@ -203,9 +203,10 @@ footer {
     width: 30rem;
     margin: 2rem;
     padding: 1rem;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
     .container-card .card:hover {
-      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 0px 0px; }
     .container-card .card img {
       width: 100%;
       border-radius: 10px; }
@@ -230,14 +231,16 @@ footer {
     background-color: wheat;
     text-align: center;
     width: 15rem;
+    height: auto;
     margin: 2rem;
     padding: 1rem;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; }
     .container-cards .card-perros img {
       width: 100%;
       border-radius: 10px; }
     .container-cards .card-perros h3 {
-      padding: 1rem 0rem 0rem 0rem; }
+      padding: .8rem 0rem 0rem 0rem; }
     .container-cards .card-perros p {
       padding: 1rem; }
     .container-cards .card-perros button {
